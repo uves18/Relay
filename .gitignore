@@ -1,0 +1,28 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Testing and tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Local configuration
+.claude/
+
+# OS
+.DS_Store
